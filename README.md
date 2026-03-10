@@ -201,11 +201,10 @@ Digital_Library
 ├── annotation
 └── DigitalLibraryApplication
 ⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/digital-library.git
-2️⃣ Navigate to project
+1️ 
+1️⃣ Navigate to project
 cd digital-library
-3️⃣ Configure Database
+2️⃣ Configure Database
 
 Update application.properties:
 
@@ -215,7 +214,7 @@ spring.datasource.password=yourpassword
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-4️⃣ Run the application
+3️⃣ Run the application
 mvn spring-boot:run
 🔗 API Endpoints (Examples)
 Student APIs
